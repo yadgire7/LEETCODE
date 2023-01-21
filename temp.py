@@ -1,4 +1,9 @@
+original = [1,2,3,4]
+m = 2
+n = 2
+two_d_array =[]
+for i in range(m):
+    two_d_array.append(original[i*n:(i+1)*n])
+print(two_d_array)
 
-nums = [4,3,2,7,8,2,3,1]
-# length = len(nums)
-print(list((set(range(1,len(nums))))-set(nums)))
+
